@@ -27,7 +27,7 @@ const Sidebar = () => {
                 key={to}
                 to={to}
                 className={({ isActive }) =>
-                  `no-underline font-quadria bg-white/10 backdrop-blur-sm hover:bg-white/20 focus:ring-4 focus:outline-none font-medium rounded-lg text-m px-5 py-2.5 text-center mb-2 border border-white/20 w-full shadow-sm block ${
+                  `no-underline font-quadria bg-white/10 backdrop-blur-sm hover:scale-100 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] focus:ring-4 focus:outline-none font-medium rounded-lg text-m px-5 py-2.5 text-center mb-2 border border-white/20 w-full shadow-sm block ${
                     isActive
                       ? "text-pink-500 bg-white/30 border-white/40"
                       : "text-pink-900"

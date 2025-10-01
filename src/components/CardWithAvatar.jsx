@@ -30,7 +30,7 @@ const CardWithAvatar = () => {
           >
             <button
               type="button"
-              class=" bg-pink-400 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center me-2 dark:hover:bg-pink-500"
+              class="bg-pink-400 text-white font-medium rounded-full text-sm p-2 inline-flex items-center transition-transform duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]"
             >
               <svg
                 class="w-6 h-6 text-pink-800 dark:text-white"
@@ -56,7 +56,7 @@ const CardWithAvatar = () => {
           >
             <button
               type="button"
-              class=" bg-pink-400 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center me-2 dark:hover:bg-pink-500"
+              class="bg-pink-400 ml-1 text-white font-medium rounded-full text-sm p-2 inline-flex items-center transition-transform duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const CardWithAvatar = () => {
           >
             <button
               type="button"
-              class=" bg-pink-400 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center me-2 dark:hover:bg-pink-500"
+              class="bg-pink-400 ml-1 text-white font-medium rounded-full text-sm p-2 inline-flex items-center transition-transform duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +125,7 @@ const CardWithAvatar = () => {
           >
             <button
               type="button"
-              class=" bg-pink-400 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center me-2 dark:hover:bg-pink-500"
+              class="bg-pink-400 ml-1 text-white font-medium rounded-full text-sm p-2 inline-flex items-center transition-transform duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +161,7 @@ const CardWithAvatar = () => {
           >
             <button
               type="button"
-              class=" bg-pink-400 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center me-2 dark:hover:bg-pink-500"
+              class="bg-pink-400 ml-1 text-white font-medium rounded-full text-sm p-2 inline-flex items-center transition-transform duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
