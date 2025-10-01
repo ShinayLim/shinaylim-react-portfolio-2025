@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import backgroundImage from "./assets/images/bg.png";
 import Main from "./pages/Main";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
