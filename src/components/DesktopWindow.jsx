@@ -4,7 +4,7 @@ const Desktop = ({ folders = [], renderContent }) => {
   const [active, setActive] = useState(null);
 
   return (
-    <div className="p-4 border border-pink-300 rounded-lg bg-white/20 backdrop-blur-md">
+    <div className="p-4 border font-quadria border-pink-300 rounded-lg bg-white/20 backdrop-blur-md">
       {/* Folder List */}
       <div className="flex gap-4 mb-4">
         {folders.map((folder) => (
@@ -61,11 +61,11 @@ const Desktop = ({ folders = [], renderContent }) => {
       </div>
 
       {/* Content */}
-      <div className="border-t border-white/30 pt-4">
+      <div className=" font-quadria border-t border-white/30 pt-4">
         {active ? (
           renderContent(active)
         ) : (
-          <p className="text-gray-500">Click a folder to view photos.</p>
+          <p className="text-pink-500">Click a folder to view photos.</p>
         )}
       </div>
     </div>

@@ -14,7 +14,7 @@ const BrowserWindow = ({ tabs = [], children }) => {
       </div>
 
       {/* Tabs */}
-      <div className="bg-pink-100/50 border-b border-pink-300 flex overflow-x-auto">
+      <div className="bg-pink-100/50 border-b font-quadria border-pink-300 flex overflow-x-auto">
         {tabs.map((tab) => (
           <button
             key={tab.id}
