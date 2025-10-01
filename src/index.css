@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Flotha-Bold;
+  src: url("../src/assets/fonts/FlothaDisplayBold-aYOr5.ttf");
+}
+@font-face {
+  font-family: Gotham-Ultra;
+  src: url("../src/assets/fonts/GOTHAM-ULTRA.TTF");
+}
+@font-face {
+  font-family: Gotham-Regular;
+  src: url("../src/assets/fonts/GOTHAM-MEDIUM.TTF");
+}
+@font-face {
+  font-family: Gotham-Italic;
+  src: url("../src/assets/fonts/GOTHAM-BOLDITALIC.TTF");
+}
+@font-face {
+  font-family: Derian;
+  src: url("../src/assets/fonts/FontsFree-Net-ROMANTIC.ttf");
+}
+@font-face {
+  font-family: Quadria;
+  src: url("../src/assets/fonts/Quadria-0vPYd.ttf");
+}
+
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@theme {
+  --font-flotha-bold: flotha-bold, "sans-serif";
+  --font-gotham-ultra: Gotham-Ultra, "sans-serif";
+  --font-gotham-regular: Gotham-Regular, "sans-serif";
+  --font-gotham-italic: Gotham-Italic, "sans-serif";
+  --font-derian: Derian, "sans-serif";
+  --font-quadria: Quadria, "sans-serif";
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(173, 59, 97);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: rgb(173, 59, 97);
+  text-decoration: inherit;
+}
+a:hover {
+  color: rgb(165, 15, 65);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-zoom {
+  animation: zoomIn 0.2s ease-out;
+}
