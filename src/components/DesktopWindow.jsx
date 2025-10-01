@@ -11,7 +11,7 @@ const Desktop = ({ folders = [], renderContent }) => {
           <button
             key={folder.id}
             onClick={() => setActive(folder.id)}
-            className="flex flex-col items-center cursor-pointer"
+            className="flex flex-col items-center cursor-pointer hover:scale-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] "
           >
             {/* Folder Icon */}
             <div>
