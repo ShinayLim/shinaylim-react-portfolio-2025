@@ -10,7 +10,9 @@ const BrowserWindow = ({ tabs = [], children }) => {
         <span className="w-3 h-3 bg-red-500 rounded-full"></span>
         <span className="w-3 h-3 bg-yellow-400 rounded-full"></span>
         <span className="w-3 h-3 bg-green-500 rounded-full"></span>
-        <div className="ml-auto text-sm text-pink-500">shin-portfolio.dev</div>
+        <div className="ml-auto text-sm font-quadria text-pink-500">
+          shin-portfolio.dev
+        </div>
       </div>
 
       {/* Tabs */}

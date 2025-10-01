@@ -1,6 +1,9 @@
 import React from "react";
 import GlassSection from "../components/GlassSection";
 import CircleWithLabel from "../components/CircleWithLabel";
+import GlassBannerPlayer from "../components/GlassBannerPlayer";
+import myAlbumCover from "./../assets/images/myAlbumCover.jpeg";
+import mySongPath from "./../assets/audio/song.mp3";
 
 const Home = () => {
   return (

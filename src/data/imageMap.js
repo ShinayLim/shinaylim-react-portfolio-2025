@@ -16,6 +16,14 @@ import g14 from "./../assets/images/graphics/14.png";
 import g15 from "./../assets/images/graphics/15.png";
 import g16 from "./../assets/images/graphics/16.png";
 import g17 from "./../assets/images/graphics/17.png";
+import g18 from "./../assets/images/graphics/18.png";
+import g19 from "./../assets/images/graphics/19.png";
+import g20 from "./../assets/images/graphics/20.png";
+import g21 from "./../assets/images/graphics/21.png";
+import g22 from "./../assets/images/graphics/22.png";
+import g23 from "./../assets/images/graphics/23.png";
+import g24 from "./../assets/images/graphics/24.png";
+import g25 from "./../assets/images/graphics/25.png";
 
 export const imageMap = {
   travel: [
@@ -58,5 +66,13 @@ export const imageMap = {
     { src: g15, title: "" },
     { src: g16, title: "" },
     { src: g17, title: "" },
+    { src: g18, title: "" },
+    { src: g19, title: "" },
+    { src: g20, title: "" },
+    { src: g21, title: "" },
+    { src: g22, title: "" },
+    { src: g23, title: "" },
+    { src: g24, title: "" },
+    { src: g25, title: "" },
   ],
 };

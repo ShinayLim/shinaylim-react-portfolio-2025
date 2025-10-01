@@ -6,7 +6,7 @@ import Projects from "./Projects";
 
 const Main = () => {
   return (
-    <div className="content flex-1 overflow-auto p-10 text-pink-900">
+    <div className="content flex-1 overflow-auto p-10 text-pink-900 custom-scrollbar">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />

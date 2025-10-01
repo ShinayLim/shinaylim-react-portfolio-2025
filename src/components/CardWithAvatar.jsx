@@ -5,7 +5,7 @@ const CardWithAvatar = () => {
     <div className="flex flex-col items-center justify-center text-pink-900">
       <div className="avatar -mb-8 z-10">
         <img
-          className="w-30 h-30 rounded-full border border-white/20 bg-white/10 backdrop-blur-md shadow-lg"
+          className="w-30 h-30 hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] rounded-full border border-white/20 bg-white/10 backdrop-blur-md shadow-lg"
           src={creative}
           alt="Graduation Picture"
         />
