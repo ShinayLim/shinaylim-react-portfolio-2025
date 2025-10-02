@@ -88,9 +88,9 @@ const Experience = () => {
                     across the team.
                   </li>
                   <li>
-                    Implemented complex UI designs using SCSS, successfully
-                    enhancing visual consistency across the application and
-                    effectively reducing styling-related errors by 40%.
+                    Led the front-end development of ERP modules using React.js,
+                    EJS, SCSS, and JavaScript, building 12+ responsive and
+                    scalable user interfaces tailored for enterprise use.
                   </li>
                   <li>
                     Actively collaborated with a cross-functional team of 6+
