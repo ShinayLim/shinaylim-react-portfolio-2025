@@ -14,8 +14,13 @@ const CircleWithLabel = ({ imageSrc, label }) => {
             className="
               font-black ml-20 mr-10 mt-2 mb-2 
               text-xs sm:text-sm md:text-base lg:text-lg
-              max-w-[150px] sm:max-w-[200px] md:max-w-[250px] 
+
+              /* MOBILE: Scroll if text is long */
+              max-w-[150px] sm:max-w-[200px] 
               overflow-x-auto whitespace-nowrap scrollbar-thin scrollbar-thumb-pink-300 scrollbar-track-transparent
+
+              /* DESKTOP: Full width, no scroll */
+              md:max-w-none md:overflow-visible md:whitespace-normal md:scrollbar-none
             "
           >
             {label}
