@@ -20,7 +20,7 @@ const Home = () => {
         </p>
       </GlassSection>
       <br />
-      <div className="flex flex-1">
+      <div className="flex flex-col md:flex-row flex-1 gap-5">
         <GlassSection title="personality." className="mr-5 w-full">
           <div class="flex justify-center w-full -mt-10 mb-5">
             <img
